@@ -1,0 +1,181 @@
+VERSION ""
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	BA_DEF_DEF_
+	VAL_TABLE_
+
+BS_:
+
+BU_: XboxCanBridge IQAN_MC42
+
+VAL_TABLE_ J1939_Status2 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+
+
+BO_ 2365445760 BJM1_LeftStick: 8 XboxCanBridge
+ SG_ LS_X_Neutral : 0|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ LS_X_Left : 2|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ LS_X_Right : 4|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ LS_X_Position : 6|10@1+ (0.1,0) [0|100] "%" IQAN_MC42
+ SG_ LS_Y_Neutral : 16|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ LS_Y_Back : 18|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ LS_Y_Fwd : 20|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ LS_Y_Position : 22|10@1+ (0.1,0) [0|100] "%" IQAN_MC42
+ SG_ LS_Y_Detent : 36|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ LS_X_Detent : 38|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_A : 46|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_B : 44|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_X : 42|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_Y : 40|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_LB : 54|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_RB : 52|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_L3 : 50|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_R3 : 48|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_View : 62|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_Menu : 60|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_Xbox : 58|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_Share : 56|2@1+ (1,0) [0|3] "" IQAN_MC42
+
+
+BO_ 2365446272 BJM2_RightStick: 8 XboxCanBridge
+ SG_ RS_X_Neutral : 0|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ RS_X_Left : 2|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ RS_X_Right : 4|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ RS_X_Position : 6|10@1+ (0.1,0) [0|100] "%" IQAN_MC42
+ SG_ RS_Y_Neutral : 16|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ RS_Y_Back : 18|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ RS_Y_Fwd : 20|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ RS_Y_Position : 22|10@1+ (0.1,0) [0|100] "%" IQAN_MC42
+ SG_ RS_Y_Detent : 36|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ RS_X_Detent : 38|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_DpadUp : 46|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_DpadDown : 44|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_DpadLeft : 42|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_DpadRight : 40|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_LT_Pressed : 54|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ Btn_RT_Pressed : 52|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM2_Button7 : 50|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM2_Button8 : 48|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM2_Button9 : 62|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM2_Button10 : 60|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM2_Button11 : 58|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM2_Button12 : 56|2@1+ (1,0) [0|3] "" IQAN_MC42
+
+
+BO_ 2365446784 BJM3_Triggers: 8 XboxCanBridge
+ SG_ LT_Neutral : 0|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ LT_Neg : 2|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ LT_Active : 4|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ LT_Position : 6|10@1+ (0.1,0) [0|100] "%" IQAN_MC42
+ SG_ RT_Neutral : 16|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ RT_Neg : 18|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ RT_Active : 20|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ RT_Position : 22|10@1+ (0.1,0) [0|100] "%" IQAN_MC42
+ SG_ RT_Detent : 36|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ LT_Detent : 38|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button1 : 46|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button2 : 44|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button3 : 42|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button4 : 40|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button5 : 54|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button6 : 52|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button7 : 50|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button8 : 48|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button9 : 62|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button10 : 60|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button11 : 58|2@1+ (1,0) [0|3] "" IQAN_MC42
+ SG_ BJM3_Button12 : 56|2@1+ (1,0) [0|3] "" IQAN_MC42
+
+CM_ "Xbox controller to J1939 bridge (Heltec V2 + RP2040 CAN Feather). 250 kbit/s. On controller loss all axis statuses and buttons report Error (2).";
+CM_ BU_ XboxCanBridge "RP2040 CAN Feather, J1939 source address 0x80.";
+CM_ BO_ 2365445760 "Basic Joystick Message 1 (PGN 64982): left stick + face/shoulder/system buttons. CAN ID 0x0CFDD680, priority 3, SA 0x80, 20 ms.";
+CM_ SG_ 2365445760 LS_X_Position "Magnitude from neutral, 0-100 %. Direction from LS_X_Left / LS_X_Right. Deadband applied: inside it, LS_X_Neutral=On and position=0.";
+CM_ SG_ 2365445760 LS_Y_Position "Magnitude from neutral, 0-100 %. Direction from LS_Y_Back / LS_Y_Fwd. Deadband applied: inside it, LS_Y_Neutral=On and position=0.";
+CM_ BO_ 2365446272 "Basic Joystick Message 2 (PGN 64984): right stick + D-pad + triggers as buttons. CAN ID 0x0CFDD880, priority 3, SA 0x80, 20 ms.";
+CM_ SG_ 2365446272 RS_X_Position "Magnitude from neutral, 0-100 %. Direction from RS_X_Left / RS_X_Right. Deadband applied: inside it, RS_X_Neutral=On and position=0.";
+CM_ SG_ 2365446272 RS_Y_Position "Magnitude from neutral, 0-100 %. Direction from RS_Y_Back / RS_Y_Fwd. Deadband applied: inside it, RS_Y_Neutral=On and position=0.";
+CM_ BO_ 2365446784 "Basic Joystick Message 3 (PGN 64986): X = left trigger, Y = right trigger (positive direction only). CAN ID 0x0CFDDA80, priority 3, SA 0x80, 20 ms.";
+
+BA_DEF_  "ProtocolType" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NmStationAddress" INT 0 255;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_DEF_  "ProtocolType" "J1939";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "NmStationAddress" 254;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "VFrameFormat" "J1939PG";
+BA_ "ProtocolType" "J1939";
+BA_ "BusType" "CAN";
+BA_ "NmStationAddress" BU_ XboxCanBridge 128;
+BA_ "GenMsgCycleTime" BO_ 2365445760 20;
+BA_ "GenMsgCycleTime" BO_ 2365446272 20;
+BA_ "GenMsgCycleTime" BO_ 2365446784 20;
+BA_ "VFrameFormat" BO_ 2365445760 3;
+BA_ "VFrameFormat" BO_ 2365446272 3;
+BA_ "VFrameFormat" BO_ 2365446784 3;
+VAL_ 2365445760 LS_X_Neutral 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 LS_X_Left 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 LS_X_Right 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 LS_Y_Neutral 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 LS_Y_Back 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 LS_Y_Fwd 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 LS_Y_Detent 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 LS_X_Detent 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_A 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_B 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_X 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_Y 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_LB 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_RB 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_L3 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_R3 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_View 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_Menu 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_Xbox 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365445760 Btn_Share 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 RS_X_Neutral 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 RS_X_Left 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 RS_X_Right 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 RS_Y_Neutral 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 RS_Y_Back 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 RS_Y_Fwd 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 RS_Y_Detent 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 RS_X_Detent 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 Btn_DpadUp 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 Btn_DpadDown 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 Btn_DpadLeft 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 Btn_DpadRight 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 Btn_LT_Pressed 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 Btn_RT_Pressed 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 BJM2_Button7 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 BJM2_Button8 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 BJM2_Button9 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 BJM2_Button10 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 BJM2_Button11 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446272 BJM2_Button12 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 LT_Neutral 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 LT_Neg 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 LT_Active 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 RT_Neutral 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 RT_Neg 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 RT_Active 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 RT_Detent 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 LT_Detent 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button1 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button2 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button3 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button4 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button5 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button6 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button7 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button8 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button9 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button10 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button11 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;
+VAL_ 2365446784 BJM3_Button12 0 "Off" 1 "On" 2 "Error" 3 "NotAvailable" ;

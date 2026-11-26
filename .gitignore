@@ -1,0 +1,8 @@
+build/
+*.bin
+*.elf
+*.uf2
+*.hex
+*.map
+.vscode/
+__pycache__/
